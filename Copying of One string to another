@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   char s1[100],s2[100];
+   int i, length;
+   clrscr();
+   printf("enter the string s1 \n");
+   gets(s1);
+   for(i=0;s1[i]!='\0';i++)
+   {
+      s2[i]=s1[i];
+   }
+   length=i;
+   s2[i]=0;
+   printf("String s2: %s\n",s2);
+   printf("Length of the string is %d", length);
+   getch():
+   }
+   
+   
+   
+   
